@@ -1,7 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Full Stack WebDev Veggies'
-theme= 'digitalgarden'
 
 googleAnalytics = "UA-PROPERTY_ID"
 
