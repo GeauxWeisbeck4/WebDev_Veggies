@@ -1,0 +1,14 @@
+name = "Full Stack WebDev Veggie Garden"
+license = "MIT"
+licenselink = ""
+description = "Theme for my Full Stack Web Dev Veggie Digital Garden powered with TailwindCSS and Hugo, Netlify and Netlify CMS?"
+homepage = ""
+demosite = ""
+tags = ["Hugo", "theme", "digital garden", "blog", "modern", "responsive"]
+features = ["clean", "3 column", "minimal", "digital garden", "mobile", "personal", "responsive", "simple", "tailwind", "blog", "white", "full-stack", "veggies"]
+min_version = "1.0.0"
+
+[author]
+  name = "Andrew Weisbeck"
+  homepage = "https://geauxweisbeck4.dev
+

@@ -1,0 +1,81 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Full Stack WebDev Veggies'
+theme= 'digitalgarden'
+
+googleAnalytics = "UA-PROPERTY_ID"
+
+[Params]
+  description = "My Digital Garden of Full Stack Veggies"
+  images = ['/resources/_gen/images/digitalveggies.png']
+
+[Params.newsletter]
+  title = "Andrew's ADD Fun Hour by GeauxWeisbeck4.dev"
+  description = "Fun internet projects that I share when distracted from real work"
+  path = "https://www.getrevue.co/profile/GeauxWeisbeck4/add_subscriber"
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = 'Articles'
+  url = '/articles'
+  weight = 2
+[[menu.main]]
+  name = 'Portfolio'
+  url = '/portfolio'
+  weight = 3
+[[menu.main]]
+  name = 'Stack'
+  url = '/stack'
+  weight = 4
+
+[[menu.social]]
+  name = 'Twitter'
+  url = 'https://twitter.com/GeauxWeisbeck4'
+  weight = 1
+[[menu.social]]
+  name = 'GitHub'
+  url = 'https://github.com/GeauxWeisbeck4'
+  weight = 2
+[[menu.social]]
+  name = 'LinkedIn'
+  url = 'https://www.linkedin.com/in/andrew-weisbeck-09542a7a/'
+  weight = 3
+[[menu.social]]
+  name = 'Instagram'
+  url = 'https://instagram.com/geauxweisbeck4'
+  weight = 4
+[[menu.social]]
+  name = 'Dribbble'
+  url = 'https://dribbble.com/GeauxWeisbeck4'
+  weight = 5
+[[menu.social]]
+  name = 'Codepen'
+  url = 'https://codepen.io/geauxweisbeck4'
+  weight = 6
+[[menu.social]]
+  name = 'Twitch'
+  url = 'https://twitch.tv/geauxweisbeck4'
+  weight = 7
+[[menu.social]]
+  name = 'Email'
+  url = 'mailto:radcybertech@gmail.com'
+  weight = 8
+[[menu.social]]
+  name = 'RSS'
+  url = '/articles/index.xml'
+  weight = 9
+
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
+
+  
